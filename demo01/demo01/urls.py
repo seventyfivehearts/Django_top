@@ -19,6 +19,14 @@ from app01 import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^index/', views.index),
-    url(r'^home/', views.home)
+    # 登录功能
+    url(r'^login/', views.login),
+    # 注册功能
+    # url(r'^register/', views.reg),
+    # 展示列表
+    url(r'^userlist/', views.userlist),
+    # 编辑按钮
+    url(r'^edit_user/', views.edit_user),
+    # 删除按钮
+    url(r'^delete_user/', views.delete_user),
 ]
