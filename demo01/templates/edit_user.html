@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+     {% load static %}
+    <link rel="stylesheet" href="{% static 'bootstrap-3.3.7-dist/css/bootstrap.min.css' %}">
+    <script src="{% static 'bootstrap-3.3.7-dist/js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+<h1 class="text-center">编辑</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <form action="" method="post">
+                <p>username<input type="text" class="form-control" value="{{ edit_obj.username }}"></p>
+                <p>password<input type="password"class="form-control" value="{{ edit_obj.password }}"></p>
+                <input type="submit" class="btn btn-info btn-block" value="编辑">
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
