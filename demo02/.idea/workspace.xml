@@ -20,25 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97791c2d-df30-4c8f-98a9-2e4ce0d35c76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/demo02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app01/migrations/0002_auto_20210223_1111.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app01/migrations/0003_auto_20210223_1114.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo0/app01/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo0/app01/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo0/app01/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo0/app01/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo0/app01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo0/app01/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo0/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo0/demo0/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo0/demo0/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo0/demo0/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo0/demo0/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo0/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614077564992</updated>
       <workItem from="1614077570435" duration="5665000" />
+      <workItem from="1614134357372" duration="560000" />
     </task>
     <servers />
   </component>
@@ -127,6 +111,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1858" height="279" key="GridCell.Tab.0.bottom" timestamp="1614088566352">
@@ -145,9 +130,21 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1858" height="279" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1614088566351" />
+    <state x="424" y="167" key="MultipleFileMergeDialog" timestamp="1614089750005">
+      <screen x="0" y="23" width="1920" height="969" />
+    </state>
+    <state x="424" y="167" key="MultipleFileMergeDialog/0.23.1920.969@0.23.1920.969" timestamp="1614089750005" />
     <state x="219" y="0" key="SettingsEditor" timestamp="1614087376345">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="219" y="0" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1614087376345" />
+    <state x="360" y="122" key="Vcs.Push.Dialog.v2" timestamp="1614089771622">
+      <screen x="0" y="23" width="1920" height="969" />
+    </state>
+    <state x="360" y="122" key="Vcs.Push.Dialog.v2/0.23.1920.969@0.23.1920.969" timestamp="1614089771622" />
+    <state x="658" y="389" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614089737609">
+      <screen x="0" y="23" width="1920" height="969" />
+    </state>
+    <state x="658" y="389" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.969@0.23.1920.969" timestamp="1614089737609" />
   </component>
 </project>

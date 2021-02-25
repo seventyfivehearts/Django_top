@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap-theme.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+home
+{# 这里也需要一个数字进行匹配#}
+{#<a href="{% url 'other_name' 123 %}"></a>#}
+
+{#<a href="{% url 'year' year=123 %}">123</a>#}
+{#<a href="{% url 'year' 123 %}">123</a>#}
+
+{% url 'app01:index' %}
+{% url 'app02:index' %}
+</body>
+</html>

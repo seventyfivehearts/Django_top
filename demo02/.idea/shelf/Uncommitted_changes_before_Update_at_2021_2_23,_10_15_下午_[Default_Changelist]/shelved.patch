@@ -1,0 +1,101 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"97791c2d-df30-4c8f-98a9-2e4ce0d35c76\" name=\"Default Changelist\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/.idea/demo02.iml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/modules.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/app01/migrations/0002_auto_20210223_1111.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/app01/migrations/0003_auto_20210223_1114.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../demo0/app01/__init__.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app01/__init__.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../demo0/app01/admin.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app01/admin.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../demo0/app01/apps.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app01/apps.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../demo0/app01/migrations/__init__.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app01/migrations/__init__.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../demo0/app01/models.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app01/models.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../demo0/app01/tests.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app01/tests.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../demo0/app01/views.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app01/views.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../demo0/demo0/__init__.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/demo02/__init__.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../demo0/demo0/settings.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/demo02/settings.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../demo0/demo0/urls.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/demo02/urls.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../demo0/demo0/wsgi.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/demo02/wsgi.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../demo0/manage.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/manage.py\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"DjangoConsoleOptions\" custom-start-script=\"import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)\">\n    <option name=\"myCustomStartScript\" value=\"import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"HTML File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1osa52xM7HOxbNZ0cxfc9kQZMuv\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"fileTemplates\" />\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"demo02\" type=\"Python.DjangoServer\" factoryName=\"Django server\">\n      <module name=\"demo02\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n        <env name=\"DJANGO_SETTINGS_MODULE\" value=\"demo02.settings\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"launchJavascriptDebuger\" value=\"false\" />\n      <option name=\"port\" value=\"8000\" />\n      <option name=\"host\" value=\"\" />\n      <option name=\"additionalOptions\" value=\"\" />\n      <option name=\"browserUrl\" value=\"\" />\n      <option name=\"runTestServer\" value=\"false\" />\n      <option name=\"runNoReload\" value=\"false\" />\n      <option name=\"useCustomRunCommand\" value=\"false\" />\n      <option name=\"customRunCommand\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n  </component>\n  <component name=\"SvnConfiguration\">\n    <configuration />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"97791c2d-df30-4c8f-98a9-2e4ce0d35c76\" name=\"Default Changelist\" comment=\"\" />\n      <created>1614077564992</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1614077564992</updated>\n      <workItem from=\"1614077570435\" duration=\"5665000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"2\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state width=\"1858\" height=\"279\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1614088566352\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state width=\"1858\" height=\"279\" key=\"GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080\" timestamp=\"1614088566352\" />\n    <state width=\"1858\" height=\"279\" key=\"GridCell.Tab.0.center\" timestamp=\"1614088566350\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state width=\"1858\" height=\"279\" key=\"GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080\" timestamp=\"1614088566350\" />\n    <state width=\"1858\" height=\"279\" key=\"GridCell.Tab.0.left\" timestamp=\"1614088566349\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state width=\"1858\" height=\"279\" key=\"GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080\" timestamp=\"1614088566349\" />\n    <state width=\"1858\" height=\"279\" key=\"GridCell.Tab.0.right\" timestamp=\"1614088566351\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state width=\"1858\" height=\"279\" key=\"GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080\" timestamp=\"1614088566351\" />\n    <state x=\"219\" y=\"0\" key=\"SettingsEditor\" timestamp=\"1614087376345\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state x=\"219\" y=\"0\" key=\"SettingsEditor/0.0.1920.1080@0.0.1920.1080\" timestamp=\"1614087376345\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 8a620f9972583c54cf8efdd48bdd181359c3c3ff)
++++ .idea/workspace.xml	(date 1614089596563)
+@@ -19,26 +19,8 @@
+     <select />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="97791c2d-df30-4c8f-98a9-2e4ce0d35c76" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/.idea/demo02.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/app01/migrations/0002_auto_20210223_1111.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/app01/migrations/0003_auto_20210223_1114.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../demo0/app01/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/__init__.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../demo0/app01/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/admin.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../demo0/app01/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/apps.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../demo0/app01/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/migrations/__init__.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../demo0/app01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/models.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../demo0/app01/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/tests.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../demo0/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/views.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../demo0/demo0/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/__init__.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../demo0/demo0/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/settings.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../demo0/demo0/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/urls.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../demo0/demo0/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/wsgi.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../demo0/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
++    <list default="true" id="97791c2d-df30-4c8f-98a9-2e4ce0d35c76" name="Default Changelist" comment="路由 反向解析">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -110,8 +92,16 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1614077564992</updated>
+-      <workItem from="1614077570435" duration="5665000" />
++      <workItem from="1614077570435" duration="6548000" />
++    </task>
++    <task id="LOCAL-00001" summary="路由 反向解析">
++      <created>1614088860258</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1614088860258</updated>
+     </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -127,27 +117,35 @@
+         </entry>
+       </map>
+     </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="路由 反向解析" />
++    <option name="LAST_COMMIT_MESSAGE" value="路由 反向解析" />
+   </component>
+   <component name="WindowStateProjectService">
+-    <state width="1858" height="279" key="GridCell.Tab.0.bottom" timestamp="1614088566352">
++    <state width="1858" height="279" key="GridCell.Tab.0.bottom" timestamp="1614089596304">
+       <screen x="0" y="0" width="1920" height="1080" />
+     </state>
+-    <state width="1858" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1614088566352" />
+-    <state width="1858" height="279" key="GridCell.Tab.0.center" timestamp="1614088566350">
++    <state width="1858" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1614089596304" />
++    <state width="1858" height="279" key="GridCell.Tab.0.center" timestamp="1614089596300">
+       <screen x="0" y="0" width="1920" height="1080" />
+     </state>
+-    <state width="1858" height="279" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1614088566350" />
+-    <state width="1858" height="279" key="GridCell.Tab.0.left" timestamp="1614088566349">
++    <state width="1858" height="279" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1614089596300" />
++    <state width="1858" height="279" key="GridCell.Tab.0.left" timestamp="1614089596161">
+       <screen x="0" y="0" width="1920" height="1080" />
+     </state>
+-    <state width="1858" height="279" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1614088566349" />
+-    <state width="1858" height="279" key="GridCell.Tab.0.right" timestamp="1614088566351">
++    <state width="1858" height="279" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1614089596161" />
++    <state width="1858" height="279" key="GridCell.Tab.0.right" timestamp="1614089596302">
+       <screen x="0" y="0" width="1920" height="1080" />
+     </state>
+-    <state width="1858" height="279" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1614088566351" />
++    <state width="1858" height="279" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1614089596302" />
+     <state x="219" y="0" key="SettingsEditor" timestamp="1614087376345">
+       <screen x="0" y="0" width="1920" height="1080" />
+     </state>
+     <state x="219" y="0" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1614087376345" />
++    <state x="360" y="155" key="Vcs.Push.Dialog.v2" timestamp="1614089544311">
++      <screen x="0" y="0" width="1920" height="1080" />
++    </state>
++    <state x="360" y="155" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1614089544311" />
+   </component>
+ </project>
+\ No newline at end of file
