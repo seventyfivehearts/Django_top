@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap-theme.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+{#<p></p>{{ n }}#}
+{#<p></p>{{ f }}#}
+{#<p></p>{{ s }}#}
+{#<p></p>{{ b }}#}
+{#<p></p>{{ l }}#}
+{#<p></p>{{ d }}#}
+{#<p></p>{{ t }}#}
+{#<p></p>{{ se }}#}
+{#<p>{{ func }}</p>#}
+{##}
+{#<p>{{ MyClass }}</p>#}
+{#<p>{{ obj }}</p>#}
+{#传类名的时候加括号实例化调用#}
+{#<app01.views.index.<locals>.MyClass object at 0x108af07f0>#}
+{#<app01.views.index.<locals>.MyClass object at 0x1089c6400>#}
+{#内部能够自动判断当前变量名是否可以加括号调用，如果可以将自动执行，针对的主要是类与函数#}
+{#<p>{{ obj.func}}</p>#}
+{#<p>{{ obj.get_class }}</p>#}
+{#<p>{{ obj.get_self }}</p>#}
+{#<p>{{ d.username }}</p>#}
+{#<p>{{ l.0 }}</p>#}
+{#<p>{{ d.hobby.3.info }}</p>#}
+{##}
+{#<p>{{ s|length }}</p>#}
+{#<p>默认值{{ b|default:'默认值'}}</p>#}
+{#<p>文件大小{{ file_size|filesizeformat }}</p>#}
+{#<p>日期格式化{{ current_time|date:'Y-m-d H:i:s' }}</p>#}
+{#<p>切片操作(支持步长){{ l|slice:'0:2:1' }}</p>#}
+{#<p>截取字符(文章摘要)包括三个点{{ info|truncatechars:10 }}</p>#}
+{#<p>截取单词(不包含...)按照空格来切的{{ engl|truncatewords:6 }}</p>#}
+{#<p>移除特定的字符串{{ info|cut:'s' }}</p>#}
+{#<p>拼接操作{{ l|join:'$' }}</p>#}
+{#<p>拼接操作(加法){{ n|add:10 }}</p>#}
+{#<p>拼接操作(加法){{ n|add:s }}</p>#}
+{#<p>转义操作{{ hh|safe }}</p>#}
+{#<p>{{ res }}</p>#}
+
+{#{% for foo in l %}#}
+{#    for模板自带的变量值#}
+{#    {'parentloop': {}, 'counter0': 0, 'counter': 1, 'revcounter': 3, 'revcounter0': 2, 'first': True, 'last': False}#}
+
+{#{'parentloop': {}, 'counter0': 1, 'counter': 2, 'revcounter': 2, 'revcounter0': 1, 'first': False, 'last': False}#}
+
+{#{'parentloop': {}, 'counter0': 2, 'counter': 3, 'revcounter': 1, 'revcounter0': 0, 'first': False, 'last': True}#}
+{#    <p>{{ forloop }}</p>#}
+{#    <p>{{ foo }}</p>#}
+{#{% endfor %}#}
+
+{#{% if b %}#}
+{#    <p>正确的结果</p>#}
+{#{% elif s%}#}
+{#    <p>elif</p>#}
+{#{% else %}#}
+{#    <p>错误的结果</p>#}
+{##}
+{#{% endif %}#}
+{#{% for foo in l %}#}
+{#    {% if forloop.first %}#}
+{#        <p>for循环第一次</p>#}
+{#    {% elif forloop.last %}#}
+{#        <p>for循环最后一次</p>#}
+{#    {% else %}#}
+{#        <p>{{ foo }}</p>#}
+{#    {% endif %}#}
+{#    {% empty %}#}
+{#        <p>for循环中是空的</p>#}
+{#{% endfor %}#}
+{##}
+{#{% for foo in d.keys %}#}
+{#    <p>{{ foo }}</p>#}
+{##}
+{#{% endfor %}#}
+{##}
+{#{% for value in d.values %}#}
+{#    <p>{{ value }}</p>#}
+{#{% endfor %}#}
+{##}
+{#{% for item in d.items %}#}
+{#    <p>{{ item }}</p>#}
+{#{% endfor %}#}
+{#{% with d.hobby.3.info as info %}#}
+{#    在with语法内可以通过as后面的别名快速的使用到前面复杂的数据#}
+{#    <p>{{ info }}</p>#}
+{#{% endwith %}#}
+<h1>自定义过滤器的使用</h1>
+{#先加载进来#}
+{% load mytags %}
+{#模板格式 {{ 数据|过滤器:参数 }}#}
+{{ n|test:100 }}
+
+{#格式 {{ %% }}  全部使用空格隔开#}
+<p>{% index '123' '123' '123' 'test' %}</p>
+
+{% left 10 %}
+</body>
+</html>
